@@ -66,7 +66,6 @@ class Driver {
 
 	private String empName, address;
 
-	private int empId;
 
 	public Driver(String empName, String address) {
 		this.empName = empName;
@@ -105,9 +104,6 @@ public class Association {
 		
 		c.driver = k;
 		System.out.println(c);
-		
-		
-		
 		
 		
 	}
