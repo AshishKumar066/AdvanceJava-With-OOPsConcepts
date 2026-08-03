@@ -24,7 +24,7 @@ package AdvanceJava;
 class Car {
 
 	String name;
-	Driver driver;
+	static Driver driver;
 //  Strong dependent
 	final Engine engine; 
 	
@@ -78,6 +78,12 @@ class Driver {
 
 		return "Driver [ EmpName = " + empName + " , Address = " + address + " ]";
 	}
+	
+	public void println(){
+		
+		System.out.println("Driver.println()");
+		
+	}
 
 }
 
@@ -104,6 +110,10 @@ public class Association {
 		
 		c.driver = k;
 		System.out.println(c);
+		
+		
+		Car.driver.println();     //  => System.Out.println()
+		
 		
 		
 	}

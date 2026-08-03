@@ -24,6 +24,5 @@ class Vivo {
 
 }
 
-public class SmartPhone {
 
-}
+// This code is uncompleted so we'll start it again !!

@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class Day_1 {
+public class Day_1 { 
 
 // Q1. WAP to input and display element of SDA size 15.
 
